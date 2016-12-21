@@ -23,7 +23,7 @@ RUN cd /tmp \
     && unzip dex2jar-2.0.zip \
     && cd dex2jar-2.0 \
     && chmod u+x ./*.sh \
-    && mv /tmp/dex2jar-2.0 /opt/dex2jar \
+    && mv /tmp/dex2jar-2.0 /opt/dex2jar
 ENV PATH $PATH:/opt/dex2jar
 
 RUN wget https://github.com/java-decompiler/jd-gui/releases/download/v1.4.0/jd-gui_1.4.0-0_all.deb \
