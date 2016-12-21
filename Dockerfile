@@ -8,7 +8,7 @@ RUN apt-get install -y \
  ltrace \
  git \
  ghex \
- binutils \# gdb objdump
+ binutils \
  wget unzip \
  xdg-utils
 
